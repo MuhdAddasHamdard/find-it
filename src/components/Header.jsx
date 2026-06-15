@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { mainLinks, actionLinks } from "./mock";
+import { mainLinks, actionLinks } from "../../mock";
 import { VscClose } from "react-icons/vsc";
 import { HiMenuAlt4 } from "react-icons/hi";
 const Header = () => {
