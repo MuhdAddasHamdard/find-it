@@ -5,12 +5,14 @@ import heroImg from "./assets/hero.png";
 import "./App.css";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
+import Featured from "./components/Featured";
 
 function App() {
   return (
     <>
       <Header />
       <Hero />
+      <Featured />
     </>
   );
 }
