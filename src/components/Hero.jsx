@@ -1,18 +1,9 @@
 import React, { useRef, useState } from "react";
 import { CiStar } from "react-icons/ci";
+import HeroLogic from "./custom components/HeroLogic";
 
 const Hero = () => {
-  const video = useRef(null);
-  const [isPlaying, setIsPlaying] = useState(false);
-
-  const handleVideo = () => {
-    video.current.play();
-    setIsPlaying(true);
-  };
-  const handlePause = () => {
-    video.current.pause();
-    setIsPlaying(false);
-  };
+  const { video, isPlaying, handleVideo, handlePause } = HeroLogic();
   return (
     <div>
       <section>

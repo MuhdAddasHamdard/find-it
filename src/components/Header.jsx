@@ -7,14 +7,14 @@ const Header = () => {
 
   return (
     <div>
-      <header className=" w-full relative flex  justify-between items-center gap-10 px-16 py-6 shadow-md">
-        <div className="mx-auto container flex items-center  justify-between gap-6">
+      <header className="w-full relative flex  justify-between items-center gap-10  py-6 shadow-md">
+        <div className="flex items-center gap-9 px-5  w-full justify-between">
           <img
             src="https://framerusercontent.com/images/uqOqjhGMi4m1U97lTIFNIw6rBaU.svg?width=126&height=41"
             alt="Logo"
             className="h-8 "
           />
-          <div className="lg:flex hidden lg:justify-between w-7xl">
+          <div className="lg:flex hidden lg:justify-between w-full">
             <nav>
               <ul className="flex gap-6">
                 {mainLinks.map((link) => {

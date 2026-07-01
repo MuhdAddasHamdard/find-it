@@ -9,11 +9,11 @@ import Featured from "./components/Featured";
 
 function App() {
   return (
-    <>
+    <div className="container mx-auto p-3">
       <Header />
       <Hero />
       <Featured />
-    </>
+    </div>
   );
 }
 
