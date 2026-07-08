@@ -6,13 +6,15 @@ import "./App.css";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
 import Featured from "./components/Featured";
+import Benefits from "./components/Benefits";
 
 function App() {
   return (
-    <div className="container mx-auto p-3">
+    <div className=" p-3">
       <Header />
       <Hero />
       <Featured />
+      <Benefits />
     </div>
   );
 }
