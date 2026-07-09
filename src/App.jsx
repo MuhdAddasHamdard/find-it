@@ -8,6 +8,7 @@ import Hero from "./components/Hero";
 import Featured from "./components/Featured";
 import Benefits from "./components/Benefits";
 import Locations from "./components/Locations/Locations";
+import Process from "./components/Process";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Featured />
       <Benefits />
       <Locations />
+      <Process />
     </div>
   );
 }

@@ -155,3 +155,24 @@ export const locations = [
     subTitle: "4 Property",
   },
 ];
+
+export const processes = [
+  {
+    id: 0,
+    num: "01.",
+    title: "Discover",
+    desc: "We start by understanding your goals and lifestyle, then curate properties that match.",
+  },
+  {
+    id: 1,
+    num: "02.",
+    title: "Experience",
+    desc: "Guided viewings and expert insights help you explore the best options with confidence.",
+  },
+  {
+    id: 2,
+    num: "03.",
+    title: "Secure",
+    desc: "From negotiation to closing, we ensure a seamless, stress-free transaction.",
+  },
+];
