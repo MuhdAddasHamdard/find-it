@@ -1,6 +1,5 @@
 import React from "react";
 import { benefits, imagePositions, imgTags, list } from "../../mock";
-import { div } from "prelude-ls";
 
 const Benefits = () => {
   return (
@@ -22,7 +21,7 @@ const Benefits = () => {
               const Icon = tag.icon;
               return (
                 <div
-                  className={`z-50 relative w-50
+                  className={`z-50 relative w-50 hidden lg:flex lg:gap-1.5
                      ${tag.id === 0 ? "top-0 left-54" : ""}
                       ${tag.id === 1 ? "top-30 left-0" : ""}
                        ${tag.id === 2 ? "left-100 top-50" : ""}

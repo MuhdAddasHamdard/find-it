@@ -7,6 +7,7 @@ import Header from "./components/Header";
 import Hero from "./components/Hero";
 import Featured from "./components/Featured";
 import Benefits from "./components/Benefits";
+import Locations from "./components/Locations/Locations";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Hero />
       <Featured />
       <Benefits />
+      <Locations />
     </div>
   );
 }

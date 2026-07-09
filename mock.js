@@ -62,6 +62,8 @@ export const benefits = [
   {
     id: 1,
     img: "https://framerusercontent.com/images/XXg8QrmCUY5PgWmNqLkowpEAc.jpg?scale-down-to=1024&width=3376&height=6000",
+    smImg:
+      "https://framerusercontent.com/images/XXg8QrmCUY5PgWmNqLkowpEAc.jpg?scale-down-to=2048&width=3376&height=6000",
   },
 
   {
@@ -116,7 +118,40 @@ export const list = [
   },
 ];
 export const imagePositions = [
-  "lg:top-0 -top-10 -right-3 z-50 w-2/4",
-  "lg:top-20 lg:left-1/6 h-150 w-124 lg:h-[400px] top-7 left-9 w-60 lg:w-96",
-  "lg:-bottom-0 lg:left-0  -bottom-12 -left-3 lg:w-2/4 w-[250px] ",
+  " -top-10 right-20 z-50 w-[250px] lg:w-2/4",
+  "lg:top-20 lg:left-1/6 lg:  w-[260px] lg:h-[400px] top-7 left-9 lg:w-96",
+  "lg:-bottom-0 lg:left-0  -bottom-12 left-2 lg:w-2/4 w-[250px] ",
+];
+
+export const locations = [
+  {
+    id: 0,
+    img: "https://framerusercontent.com/images/RWN6f25FO5BNZpmKNViRtdzxvIc.jpg?scale-down-to=2048&width=5184&height=3456",
+    title: "Brooklyn",
+    subTitle: "3 Property",
+  },
+  {
+    id: 1,
+    img: "https://framerusercontent.com/images/NhbRzN2WBn0hp8tiUe0UY5Ed2pE.jpg?scale-down-to=2048&width=6000&height=4000",
+    title: "Manhattan",
+    subTitle: "4 Property",
+  },
+  {
+    id: 2,
+    img: "https://framerusercontent.com/images/1frAfLSbw60RpSKH9JqkS7GFtnc.jpg?scale-down-to=2048&width=5983&height=3365",
+    title: "Queens",
+    subTitle: "6 Property",
+  },
+  {
+    id: 3,
+    img: "https://framerusercontent.com/images/Wj8H39ZP4sqIyT4FJemrZ2dYQ.jpg?scale-down-to=2048&width=6240&height=4160",
+    title: "Staten Island",
+    subTitle: "4 Property",
+  },
+  {
+    id: 4,
+    img: "https://framerusercontent.com/images/5u4aiXcwplgL36WqVLzgKOGme4k.jpg?scale-down-to=2048&width=2739&height=1826",
+    title: "The Bronx",
+    subTitle: "4 Property",
+  },
 ];
